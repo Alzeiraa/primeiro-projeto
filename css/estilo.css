@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(59, 59, 82);
+    margin: 0;
+}
+
+.Inicio2 {
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover; 
+    border-top: 1px solid transparent;
+}
+
+.Inicio2 nav ul {
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.Inicio2 nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.Inicio2 nav a {
+    background: rgba(0, 0, 0, 0.20);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.Inicio2 nav a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.inicio2-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.inicio2-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.inicio2-content p{
+    background-color: rgb(0, 0, 0, 0.65);
+    display: inline-block;
+    padding: 12px;
+    border-bottom: 2px solid white;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background: rgb(49, 47, 47);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 18ypx;
+    padding-bottom: 18px;
+}
+
+.content-header {
+    border-bottom: solid 2px #ccc;
+    padding: 10px;
+
+    background: rgb(235, 229, 229);
+}
+
+.content-header h2 {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px rgb(70, 70, 214);
+    background: rgba(0, 0, 0, 0.493);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
